@@ -1,0 +1,13 @@
+.menu {
+    flex-basis: 10%;
+    border-right: 1px solid #2F73B6;
+    padding: 5px 20px;
+}
+
+.menu-name {
+    border-bottom: 1px solid #2F73B6;
+}
+
+.menu-items {
+    font-size: 18px;
+}

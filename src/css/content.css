@@ -1,0 +1,29 @@
+.content {
+    padding: 5px 20px;
+    width: 100%;
+}
+
+.content-name {
+    border-bottom: 1px solid #2F73B6;
+}
+
+.content-items {
+    padding: 20px;
+    font-size: 18px;
+}
+
+button {
+    border: 1px solid #18e64e;
+    background-color: #389fbf;
+    border-radius: 20px;
+    color: white;
+    padding: 5px !important;
+}
+
+button:hover {
+    border: 1px solid #18e64e;
+    background-color: #0114bf;
+    border-radius: 20px;
+    color: white;
+    padding: 5px !important;
+}

@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 50px;
+    font-size: 24px;
+}
+
+.header {
+    align-self: center;
+    padding: 20px 0;
+    font-size: 42px;
+}
+
+body {
+    background: linear-gradient(to top, #c0effe, #1589cc);
+    height: 1080px;
+}
+
+.body {
+    display: flex;
+    border-bottom: 1px solid #2F73B6;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    background-color: #61aecc;
+}
+
+hr {
+    width: 100%;
+    color: #2F73B6;
+}
