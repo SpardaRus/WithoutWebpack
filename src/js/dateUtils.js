@@ -1,11 +1,10 @@
-function alertButton() {
-    let alertButton = document.getElementById("alertButton")
-    if (alertButton) {
-        alertButton.onclick = function () {
-            alertDate()
-        };
-    }
+let alertButton = document.getElementById("alertButton")
+if (alertButton) {
+    alertButton.onclick = function () {
+        alertDate()
+    };
 }
+
 
 function alertDate() {
     let dateNow = getCurrentDate();
