@@ -32,5 +32,8 @@ module.exports = { //nodejs
                 use: ['style-loader', 'css-loader']
             }
         ]
+    },
+    devServer: {
+        port: 4200
     }
 }
