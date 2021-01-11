@@ -1,0 +1,32 @@
+{
+  "name": "withoutwebpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SpardaRus/WithoutWebpack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SpardaRus/WithoutWebpack/issues"
+  },
+  "homepage": "https://github.com/SpardaRus/WithoutWebpack#readme",
+  "devDependencies": {
+    "css-loader": "^5.0.1",
+    "html-webpack-plugin": "^4.5.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.12.3",
+    "webpack-cli": "^4.3.1"
+  },
+  "dependencies": {
+    "jquery": "^3.5.1"
+  }
+}
