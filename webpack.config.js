@@ -21,7 +21,13 @@ module.exports = { //nodejs
             filename: "about.html",
             template: './html/about.html'
         })
-    ]
-
-
+    ],
+    module: {
+        rules: [
+            {
+                test: /\.css$/,
+                use: ['style-loader', 'css-loader']
+            }
+        ]
+    }
 }
