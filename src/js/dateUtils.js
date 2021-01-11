@@ -11,7 +11,7 @@ function alertDate() {
     alert('Now: ' + dateNow);
 }
 
-function getCurrentDate() {
+export function getCurrentDate() {
     let dateNow = new Date();
     return dateNow.toLocaleString();
 }
